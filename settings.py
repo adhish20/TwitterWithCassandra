@@ -86,5 +86,6 @@ CACHE_BACKEND = 'locmem:///'
 
 INSTALLED_APPS = (
     'django.contrib.sessions',
+    'tweets',
     'users',
 )
