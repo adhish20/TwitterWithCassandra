@@ -1,0 +1,12 @@
+from django.conf.urls import patterns, url, include
+from django.conf import settings
+
+urlpatterns = patterns('',
+    url('^auth/', include('users.urls')),
+)
+
+if settings.DEBUG:
+    urlpatterns += patterns('django.views.static',
+        (r'^media/(?P<path>.*)$', 'serve',
+            {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
+    )
