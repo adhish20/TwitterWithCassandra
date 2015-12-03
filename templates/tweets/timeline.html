@@ -5,15 +5,16 @@
 {% block content %}
     {% if request.user.is_authenticated %}
         <form method="POST" id="poster">
-            <div class="grid_9 alpha">
+            <div class="grid_7 alpha">
                 <textarea maxlength="140" name="body" type="text" id="id_body"></textarea>
             </div>
-            <input type="submit" value="Post Tweet" class="grid_3 omega">
+            <input type="submit" value="Post Tweet" class="grid_2 omega">
             <div class="clear"></div>
         </form>
     {% else %}
         <h2 class="grid_4 suffix_5">Public Timeline</h2>
     {% endif %}
+    <br><br>
     <ul id="timeline" class="grid_9 alpha">
         {% for tweet in tweets %}
             <li>
