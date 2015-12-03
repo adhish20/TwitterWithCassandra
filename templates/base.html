@@ -19,7 +19,8 @@
 	            </div>
                 <br>
         	    <ul id="nav" class="grid_7">
-        	        <li><a href="{% url "timeline" %}">Home</a></li>
+        	       <div style="background-color:#FFFF66; width:90%;">
+                    <li><a href="{% url "timeline" %}">Home</a></li>
         	        <li><a href="{% url "publicline" %}">Public</a></li>
         	        <li><a href="{% url "find_friends" %}">Find Friends</a></li>
         	        {% if request.user.is_authenticated %}
@@ -27,6 +28,7 @@
         	        {% else %}
         	            <li><a href="{% url "login" %}">Login</a></li>
         	        {% endif %}
+                    </div>
         	    </ul>
     	    </div>
     	    <div class="clear"></div>
