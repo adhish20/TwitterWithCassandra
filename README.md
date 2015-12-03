@@ -1,4 +1,11 @@
 # Twitter With Cassandra
+### Team 21
+### Team Members
+- Adhish Singla : 201403004
+- Saurabh Jain : 201301128
+- Gaurav Singh : 201264059
+- Shantanu : 201202022
+
 <br/>
 We aim at building an online social networking service (Twitter) that enables users to send and read short messages using a distributed DBMS – Apache Cassandra which is an open source distributed database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. Cassandra offers robust support for clusters spanning multiple datacenters, with asynchronous masterless replication allowing low latency operations for all clients.
 <br/><br/>
