@@ -2,16 +2,16 @@ body { background-color: #9E9996; }
 
 h2 { color: #665B56; }
 
-.container_12 { background-color: #FFF; height: 100%; }
+.container_12 { background-color: #FFF; height: 48em; position: relative; top: 2em;}
 
-#logo a { font-size: 2em; font-weight: bolder; text-decoration: none; color: #1E90FF; }
+#logo a { font-size: 3em; font-weight: bolder; text-decoration: none; color: #1E90FF; position: relative; top: 0em;}
 
-#nav { padding-top: 5px; }
+#nav { padding-top: 22px; }
 #nav li { display: inline; }
-#nav li a { padding-top: 4px; padding-bottom: 4px; text-indent: 8px; }
+#nav li a { padding-top: 4px; padding-bottom: 4px; text-indent: 8px; font-size: 1.42em; text-decoration:none;}
 
 a { color: #665B56; }
-a:hover { color: #F74; text-decoration: underline; }
+a:hover { color: #1E90FF; text-decoration: underlines; }
 
 li.more { font-size: 1.6em; background-color: #F7F7F7; text-align: center; }
 
