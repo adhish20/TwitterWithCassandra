@@ -49,7 +49,7 @@ django-filter==0.10.0
 django-imagekit==3.2.6
 django-oauth-toolkit==0.9.0
 django-rest-framework-social-oauth2==1.0.1
-djangorestframework==3.2.1
+djangorestframework==3.11.2
 dropbox==2.2.0
 duplicity==0.6.25
 ecdsa==0.11
