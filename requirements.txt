@@ -117,7 +117,7 @@ pytz==2012d
 pyxattr==0.5.3
 pyxdg==0.25
 remoto==0.0.25
-reportlab==3.2.0
+reportlab==3.6.13
 requests==2.7.0
 requests-oauthlib==0.5.0
 rpm-python==4.12.0.1
