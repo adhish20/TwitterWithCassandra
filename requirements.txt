@@ -137,7 +137,7 @@ stripe==1.22.3
 thrift==0.9.3
 ufw==0.34
 urlgrabber==3.10.1
-urllib3==1.10.4
+urllib3==1.26.17
 virtualenv==12.0.7
 virtualenv-clone==0.2.6
 virtualenvwrapper==4.7.0
